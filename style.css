@@ -10,7 +10,7 @@
     height:300px ;
     margin-top: 9rem;
     background-color: rgb(6, 36, 85);
-   
+    /* text-align: center; */
 }
 #head2{
     text-align: center;
@@ -18,16 +18,24 @@
     margin-top: 5px;
     color: aliceblue;
 }
+
+
 #inputid{
-    display: block;
-    text-align: center;
-}
+    display: flex;
+    align-items: center;
+} 
+#inputid2{
+    display: flex;
+    align-items: center;
 
-
+} 
 .input{
-font-size: 15px;
-border-radius: 4px;
+    width: 100%;
+border-radius: 5px;
+margin-right: 15px;
+margin-left: 10px;
 }
+
 #container{
     display: flex;
     justify-content: center;
@@ -61,4 +69,16 @@ border-radius: 4px;
 #para{
     font-size: 20px;
     font-weight: 600;
+}
+@media(max-width:992px) and (min-width:760px){
+    .input{
+        font-size: 10px;
+
+    }
+}
+@media(max-width:760px) and (min-width:480px){
+    .input{
+        font-size: 10px;
+
+    }
 }
